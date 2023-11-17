@@ -42,7 +42,7 @@ Now we  shall unzip the files, open the Industrial-motion-classifier_inferencing
 
 ![compiled](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/6b16a9b1-60bb-4d15-abfe-8cc7a471c877)
 
-Each two secondes, the vibration will be recorded thanks to the inertial sensor, and we'll be able to classify this recording. As our model is accurate we obtained the following results:
+Each two secondes, the vibration will be recorded thanks to the embedded inertial sensor, and we'll be able to classify the different vibrations. As our model is accurate we obtained the following results:
 
 result1: Heavy
 
