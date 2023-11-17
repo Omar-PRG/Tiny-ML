@@ -35,8 +35,15 @@ Now we head to the NN Classifier page in your project. Click Start training. Aft
 Now it's time to download the zipped code dependencies, and import them in arduino ide. Please make sure to have the recent version.
 
 ![archive created](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/f4f03913-8515-4157-b1ba-50ecab2147a0)
-![compiled](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/6b16a9b1-60bb-4d15-abfe-8cc7a471c877)
 
+Now we  shall unzip the files, open the .h file and run the arduino ino sketch.
+![compiled](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/6b16a9b1-60bb-4d15-abfe-8cc7a471c877)
+Each two secondes, the vibration will be recorded thanks to the inertial sensor, and we'll be able to classify this recording. As our model is accurate we obtained the following results:
+result1: Heavy
 ![Heavy](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/3c2a64ee-40e9-4e9a-bf37-4b3ce443790d)
+result2: Off
+
 ![off](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/67dd8ac6-ecd2-4715-8e47-30cdbd784d7f)
+result3: Light
+
 ![Light](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/00585206-c6cb-42f3-aac0-9e49c6386583)
