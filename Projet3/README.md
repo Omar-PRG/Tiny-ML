@@ -38,7 +38,7 @@ Now it's time to download the zipped code dependencies, and import them in ardui
 
 ![archive created](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/f4f03913-8515-4157-b1ba-50ecab2147a0)
 
-Now we  shall unzip the files, open the .h file and run the arduino ino sketch.
+Now we  shall unzip the files, open the Industrial-motion-classifier_inferencing.h  file and run the arduino ino sketch.
 
 ![compiled](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/6b16a9b1-60bb-4d15-abfe-8cc7a471c877)
 
