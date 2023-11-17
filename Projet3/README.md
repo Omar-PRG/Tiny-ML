@@ -22,7 +22,18 @@ Step2: we record the different levels of vibration and in our case we made 19 re
 
 ![Fast](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/6d192aa4-6718-4d14-9e24-574b0ec26f02)
 
-
+Here we have some records up to 10s and ohters last 80 seconds. We make sure that when moving some of them to test, these should be the 10s recordings because we should train on the majority of data then test on uup to 20-30%..
 ![data acqu](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/ce88864f-0624-4bfe-ba58-66422e16d810)
 
 
+Now we head to the Spectral Features page and click Generate features after choosing the following config:
+
+![imp design](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/b1389de7-aa4a-44d4-9fdc-2b136ec50438)
+
+Now we head to the NN Classifier page in your project. Click Start training. After a few minutes, the model should be done training:
+
+![just modele](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/b6cbb239-95b5-41c8-bcb0-9de1bb904cef)
+
+![anomaly detect](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/ac598c34-8170-4e4a-8498-3b62e559d464)![max-gyro-acc](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/4a470de0-ff11-4d71-b6a4-7a21be1eeb78)
+
+![archive created](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/f4f03913-8515-4157-b1ba-50ecab2147a0)
