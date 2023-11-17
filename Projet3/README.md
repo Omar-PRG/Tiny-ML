@@ -37,3 +37,8 @@ Now we head to the NN Classifier page in your project. Click Start training. Aft
 ![anomaly detect](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/ac598c34-8170-4e4a-8498-3b62e559d464)![max-gyro-acc](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/4a470de0-ff11-4d71-b6a4-7a21be1eeb78)
 
 ![archive created](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/f4f03913-8515-4157-b1ba-50ecab2147a0)
+![compiled](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/6b16a9b1-60bb-4d15-abfe-8cc7a471c877)
+
+![Heavy](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/3c2a64ee-40e9-4e9a-bf37-4b3ce443790d)
+![off](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/67dd8ac6-ecd2-4715-8e47-30cdbd784d7f)
+![Light](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/00585206-c6cb-42f3-aac0-9e49c6386583)
