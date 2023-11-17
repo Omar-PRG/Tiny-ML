@@ -32,6 +32,7 @@ Now we head to the Spectral Features page and click Generate features after choo
 
 Now we head to the NN Classifier page in your project. Click Start training. After a few minutes, the model should be done training:
 ![just modele](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/e8845fab-d11e-48e8-bc9f-35501b78169e)
+Now it's time to download the zipped code dependencies, and import them in arduino ide. Please make sure to have the recent version.
 
 ![archive created](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/f4f03913-8515-4157-b1ba-50ecab2147a0)
 ![compiled](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/6b16a9b1-60bb-4d15-abfe-8cc7a471c877)
