@@ -32,10 +32,6 @@ Now we head to the Spectral Features page and click Generate features after choo
 
 Now we head to the NN Classifier page in your project. Click Start training. After a few minutes, the model should be done training:
 
-![just modele](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/b6cbb239-95b5-41c8-bcb0-9de1bb904cef)
-
-![anomaly detect](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/ac598c34-8170-4e4a-8498-3b62e559d464)![max-gyro-acc](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/4a470de0-ff11-4d71-b6a4-7a21be1eeb78)
-
 ![archive created](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/f4f03913-8515-4157-b1ba-50ecab2147a0)
 ![compiled](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/6b16a9b1-60bb-4d15-abfe-8cc7a471c877)
 
