@@ -43,6 +43,7 @@ Now we  shall unzip the files, open the .h file and run the arduino ino sketch.
 ![compiled](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/6b16a9b1-60bb-4d15-abfe-8cc7a471c877)
 
 Each two secondes, the vibration will be recorded thanks to the inertial sensor, and we'll be able to classify this recording. As our model is accurate we obtained the following results:
+
 result1: Heavy
 
 ![Heavy](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/3c2a64ee-40e9-4e9a-bf37-4b3ce443790d)
