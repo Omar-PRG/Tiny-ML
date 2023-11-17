@@ -30,6 +30,7 @@ Step 7 : We extract the content in the arduino sketch file, open the Proje2_infe
 
 ![compiled](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/c1031d11-00b0-423e-9395-c2f9182824ca)
 
+Each two secondes, our voice will be recorded thanks to the embedded ble microphone, and we'll be able to classify the records. As our model is accurate we obtained the following results:
 
 Results:
 
