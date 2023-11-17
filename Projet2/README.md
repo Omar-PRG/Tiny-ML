@@ -1,9 +1,11 @@
 If you followed up with project 3, you'll see that the steps in edge impulse look alike. Here we'll show the main differences.
 
-Step 1:Connecting the Arduino Nano ble 33 as usual
+Step 1:Connecting the Arduino Nano ble 33 as usual in my case i had to do edge-impulse-daemon--clean because the ble was connected to my previous project 3 and i had to register it from the beginning by providing my edge impusle account credentials.
+
 Step 2: Making Records for red, Green and Yellow and moving roughly 38% of theser records to test split.
 
-![archive created](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/f98acb9d-b0c9-4d89-999b-5bb6e7205fc9)
+![rec](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/cf42d986-259c-4a09-8c39-f0ad56487ea5)
+
 
 Step 3: We save the impulse with the following config:
 
