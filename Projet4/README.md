@@ -23,11 +23,30 @@ In the meantime, consider playing with the model's hyperparameters, such as the 
 
 ![upload](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/936373ca-c648-46c5-ace7-4dae6bb69b3e)
 
-Since the camera doesn't have good quality, we will try live classification with iphone 11, we get the following result:
-
-![111](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/0fbf759a-1911-4c27-bd27-c69ab9d93cae)
+Since the camera doesn't have good quality, we will try live classification with iphone 11 by scanning the bare code after choosing add a new device in Devices:
 
 
-![222](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/d9fcd076-3cd5-4e57-b6af-974460652c64)
+![1122](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/62f72ed8-42eb-4cae-8f9f-9d6686ff85df)
 
 
+On our phone we get the following page: 
+
+![1113](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/42ee4a4a-2987-426b-a287-d4b3cbab19ad)
+
+
+Now we choose the option swich to classification mode and we enable permession to camera,  we get the following result:
+
+
+![t](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/c34bd91a-4a54-4743-a5a5-4b71cb74c340)
+
+
+
+![tt](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/a6d94daf-5143-46af-b188-66df65408b16)
+
+
+
+![ttt](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/59055b5d-4062-4371-ac72-7031cbf15734)
+
+
+
+![tttt](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/fc27d169-27e7-4855-8424-4702d85971a2)
