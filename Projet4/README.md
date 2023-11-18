@@ -1,4 +1,11 @@
-In this project, our objective is to classify images into five labels: Capacitor, Resistor, Diode, Led, and, if present, identify the background. As mentionned in projects 2 and 3, we start by checking whether the microcontroller is connected to a different project or not, and then we connect it then we start by individually selecting pictures and assigning labels to groups based on their type. For instance, when navigating the unzipped "electronic-components-png" file, if we choose pictures of LEDs, we assign the label Led to that particular group.
+In this project, our objective is to classify images into five labels: Capacitor, Resistor, Diode, Led, and, if present, identify the background. 
+
+As mentionned in projects 2 and 3, we start by checking whether the microcontroller is connected to a different project or not, and then we connect it then we start by individually selecting pictures and assigning labels to groups based on their type. 
+
+
+For instance, when navigating the unzipped "electronic-components-png" file, if we choose pictures of LEDs, we assign the label Led to that particular group.
+
+
 ![1](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/57fe7aa1-d2e1-4f41-83a6-37743dd65ca8)
 
 Now please go to Impulse design and modify the Image data setting to 28 x 28 (width x height). If your initial images are not square, customize the Resize mode to crop or adjust the images accordingly. Integrate an Image processing block and include a Classification (Keras) learning block in the process.
