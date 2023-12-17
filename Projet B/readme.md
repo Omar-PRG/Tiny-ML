@@ -14,14 +14,7 @@ The following capture shows what we found on the Light Blue app after executing 
 
 ![image](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/2e45b130-d2ed-4a2c-92ef-f1054df69a6c)
 
-The following sketch changed the whole game and allowed us to better understand not only how to be visible to node-red but also how to send values. Its main use is to turn on or off the onboard led of the arduino nano Ble 33 when the state of a connected button to pin 4 changes, and what interests us is that it sends the led state and button notification by bluetooth to check it out on the Light bLue app.
-
-
-
-
-
-The following sketch from the arduino Ble library, called ButtonLed, provided essential insights, serving as the cornerstone for initiating our project.
-
+The following sketch from the arduino Ble library, called ButtonLed, provided essential insights, serving as the cornerstone for initiating our project also allowed us to better understand not only how to be visible to node-red but also how to send values. Its main use is to turn on or off the onboard led of the arduino nano Ble 33 when the state of a connected button to pin 4 changes, and what interests us is that it sends the led state and button notification by bluetooth to check it out on the Light bLue app.
 
 
 ![image](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/d66a1e12-cc1d-4431-b216-07fdbddbb7df)
