@@ -48,6 +48,10 @@ And finally, in loop, we write the values this way:
                background.writeValue(bacground);
    //With esistance, capacitor, dode and bacground the pourcentages of the prediction that we received each two secondes from Project 4.
 
+Now we configure the Generic BLE In module as follows: 
+
+![2](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/ffaf53d4-da82-462a-a879-43da49011c06)
+
 
 So what do we get? The following result: 
 
