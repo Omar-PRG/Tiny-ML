@@ -1,10 +1,10 @@
 
 In this project, our main aim is to extend the work from project 4, where we classified images into five categories: Capacitor, Resistor, Diode, LED, and background. 
-The key focus now is to send the prediction results for each component to Node-RED through Bluetooth Low Energy (BLE). To kick off, we started by adapting sketches in the Arduino IDE, testing different options and using the LightBlue application each time we wat to evaluate. Our Arduino Nano BLE 33 operates as a peripheral device, awaiting connection  requests from Node-RED, the central device. After testing various sketches, we settled on the "enhancedadvertising" sketch, modifying the "read notify" to "read write" to 
-facilitate sending data to Node-RED for display on gauges in a dashboard.
+The key focus now is to send the prediction results for each component to Node-RED through Bluetooth Low Energy (BLE). To kick off, we started by adapting sketches in the Arduino IDE, testing different options and using the LightBlue application each time we wat to evaluate. Our Arduino Nano BLE 33 operates as a peripheral device, awaiting connection  requests from Node-RED, the central device, so what interests us is the peripheral examples and not central ones. After testing various sketches, we settled on the "enhancedadvertising" sketch, because we were able to detect the Ble service on the Light Blue app. The following capture shows the algorithm.
 
 ![image](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/2cebe833-a5f9-47a2-97ce-e40eae7d0e0d)
 
+The following capture shows what we found on the Light Blue app after executing the code.
 
 ![image](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/2e45b130-d2ed-4a2c-92ef-f1054df69a6c)
 
