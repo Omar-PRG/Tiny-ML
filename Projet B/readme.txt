@@ -5,5 +5,8 @@ our case a peripheral device, because  it waits for a connection request from no
 enhancedadvertising sketch but modified the read notify to read write because we need to write values to node-red.
 
 
+The last step is to split results and to show it in gauges.
 
+https://www.youtube.com/watch?v=xiv7n9ecI04
 
+https://www.youtube.com/watch?v=It5v1mD2K4s
