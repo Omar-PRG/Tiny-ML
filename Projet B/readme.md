@@ -8,7 +8,13 @@ The following capture shows what we found on the Light Blue app after executing 
 
 ![image](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/2e45b130-d2ed-4a2c-92ef-f1054df69a6c)
 
-The following sketch changed the whole game and allowed us to better understand not only how to be visible to node-red but also how to send values. Its main use is to turn on or off the onboard led of the arduino nano Ble 33 when the state of a connected button to pin 4 changes, and what interests us is that it sends the value of the led and button by bluetooth to check it out on the Light bLue app. The following sketch from the arduino Ble library, called ButtonLed, provided essential insights, serving as the cornerstone for initiating our project.
+The following sketch changed the whole game and allowed us to better understand not only how to be visible to node-red but also how to send values. Its main use is to turn on or off the onboard led of the arduino nano Ble 33 when the state of a connected button to pin 4 changes, and what interests us is that it sends the led state and button notification by bluetooth to check it out on the Light bLue app.
+
+![11111](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/78351f8c-6205-4503-88cc-f7e81ed47e02)
+
+
+
+The following sketch from the arduino Ble library, called ButtonLed, provided essential insights, serving as the cornerstone for initiating our project.
 
 
 
@@ -20,6 +26,34 @@ The following sketch changed the whole game and allowed us to better understand 
 ![image](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/70ed5bec-9fbc-4e4f-bed6-d39a148ef367)
 
 
+1) Whatever we want to send, we want to define a BLE service like BLEService myService("fff0");
+2)if we want to send values(integer) concerning different components we need to create BLEIntCharasteristic(READ & Write), 
+BLEIntCharacteristic resistance("fff1", BLERead | BLEWrite);
+BLEIntCharacteristic cap("fff2", BLERead | BLEWrite);
+BLEIntCharacteristic diode("fff3", BLERead | BLEWrite);
+BLEIntCharacteristic background ("fff4", BLERead | BLEWrite);
+3) In setup, we should add all these services :
+4)  myService.addCharacteristic(resistance);
+    myService.addCharacteristic(diode);
+    myService.addCharacteristic(cap);
+    myService.addCharacteristic(background);
+    BLE.addService(myService);
+
+
+5) 
+And finally, in loop, we write the values this way:
+
+               resistance.writeValue(esistance);
+               cap.writeValue(capacitor);
+               diode.writeValue(dode);
+               background.writeValue(bacground);
+   //With esistance, capacitor, dode and bacground the pourcentages of the prediction that we received each two secondes from Project 4.
+
+
+So what do we get? The following result: 
+
+
+![preuve](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/ccec59bb-2ccb-40c4-8b30-1296159327d2)
 
 
 
