@@ -9,10 +9,10 @@ BLEIntCharacteristic background ("fff4", BLERead | BLEWrite);
 // Advertising parameters should have a global scope. Do NOT define them in 'setup' or in 'loop'
 const uint8_t manufactData[4] = {0x01, 0x02, 0x03, 0x04};
 const uint8_t serviceData[3] = {0x00, 0x01, 0x02};
- int esistance = 85;
- int capacitor=1;
- int dode=20;
- int bacground=0;
+ int esistance = 1;
+ int capacitor=0;
+ int dode=55;
+ int bacground=14;
  
 void setup() 
 {
