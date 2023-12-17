@@ -56,9 +56,7 @@ So what do we get? The following result:
 
 
 
-
-The last step is to split results and to show it in gauges.
-
+Now how to merge this application, with project 4?Very easy just as provided down below.
 
 
 
