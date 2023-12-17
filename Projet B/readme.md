@@ -55,12 +55,13 @@ So what do we get? The following result:
 ![preuve](https://github.com/Omar-PRG/Tiny-ML/assets/93102956/ccec59bb-2ccb-40c4-8b30-1296159327d2)
 
 
-
-Now how to merge this application, with project 4?Very easy just as provided down below.
-
-
-
+The final version of our code is in the zipped Projet4_inferencing folder Projet4_inferencing.zip\Projet4_inferencing\examples\nano_ble33_sense\nano_ble33_sense_camera
+As we can see in the final result, we managed successfully to send the prediction values of components to Node-red but as we didn't have enough time, we haven't researched a way to filter the data and link each value to gauge in order to display it from 0 to 100 and our next goal will be to investigate it 
 Reference:
+
+https://flows.nodered.org/node/node-red-contrib-ble-sense
+
+https://github.com/Omar-PRG/Tiny-ML/tree/main/Projet4
 
 https://www.youtube.com/watch?v=xiv7n9ecI04
 
