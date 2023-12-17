@@ -32,11 +32,11 @@ BLEIntCharacteristic cap("fff2", BLERead | BLEWrite);
 BLEIntCharacteristic diode("fff3", BLERead | BLEWrite);
 BLEIntCharacteristic background ("fff4", BLERead | BLEWrite);
 3) In setup, we should add all these services :
-4)  myService.addCharacteristic(resistance);
-    myService.addCharacteristic(diode);
-    myService.addCharacteristic(cap);
-    myService.addCharacteristic(background);
-    BLE.addService(myService);
+4)   myService.addCharacteristic(resistance);
+     myService.addCharacteristic(diode);
+     myService.addCharacteristic(cap);
+     myService.addCharacteristic(background);
+     BLE.addService(myService);
 
 
 5) 
